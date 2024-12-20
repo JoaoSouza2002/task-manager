@@ -1,23 +1,16 @@
-# Ignorar arquivos Python compilados
+# Django
+*.log
+db.sqlite3
+media/
+
+# Python bytecode
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
 
-# Ignorar o ambiente virtual (virtualenv)
+# Environments
 venv/
 env/
 
-# Ignorar arquivos de banco de dados SQLite
-db.sqlite3
-
-# Ignorar arquivos de configuração do IDE
+# IDE configurations
 .vscode/
 .idea/
-
-# Ignorar arquivos de cache de Django
-*.log
-*.pot
-*.pyc
-*.pyo
-*.sqlite3
